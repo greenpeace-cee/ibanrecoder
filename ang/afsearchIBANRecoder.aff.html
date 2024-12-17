@@ -1,0 +1,9 @@
+<div af-fieldset="">
+  <fieldset class="af-container af-layout-inline">
+    <af-field name="iban_old" defn="{required: false, input_attrs: {}}" />
+    <af-field name="iban_new" defn="{required: false, input_attrs: {}}" />
+    <af-field name="status_id" defn="{input_attrs: {multiple: true}, afform_default: ['1'], label: 'Status'}" />
+    <af-field name="result" />
+  </fieldset>
+  <crm-search-display-table search-name="IBAN_Recoder" display-name="IBAN_Recoder_Table"></crm-search-display-table>
+</div>
